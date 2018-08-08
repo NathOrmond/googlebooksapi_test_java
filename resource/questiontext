@@ -1,0 +1,48 @@
+The goal of this technical test is to fetch and then mutate data from the Google Books API.
+The motivation behind this test is to assess a candidate’s ability to interact with third-party APIs and
+handle the responses in an appropriate manner.
+Getting Started
+Base URL:
+https://www.googleapis.com/books/v1/volumes?q=<QUERY>&startIndex=<OFFSET>
+• q is used to search books
+• startIndex is an optional parameter for dealing with paginated requests.
+• Note: The default value of startIndex is 0 and each request returns 10 books.
+The application does not need a UI and results should be logged to a terminal. Candidates are free to
+use any NPM modules they wish.
+
+Tasks : 
+1. Fetch the first 50 “Programming” books from the Google Books API.
+
+
+2. Log to the terminal an array of the top 10 rates books in the following format:
+[
+{
+title: “<item.volumeInfo.title>”,
+averageRating: “<item.volumeInfo.averageRating>”
+},
+... 9 more books
+]
+
+
+3. Log to the terminal an array of the top 5 cheapest books, based on cost per page. You will
+need to calculate cost per page using item.saleInfo.listPrice and
+item.volumeInfo.pageCount
+[
+{
+title: “<item.volumeInfo.title>”,
+costPerPage: “<item.costPerPage>”
+},
+... 4 more books
+]
+
+
+4. Log to the terminal an object with publishers as the keys and an array of books they’ve
+published in the following format:
+{
+“<item.volumeInfo.publisher>”: [
+{
+title: “<item.volumeInfo.title>”,
+publishedDate: “<item.volumeInfo.publishedDate>”
+}
+]
+}
