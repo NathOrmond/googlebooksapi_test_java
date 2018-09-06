@@ -3,8 +3,51 @@ package code.analysis.datatypes;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import code.analysis.JSONData;
+import code.hci.AbstractRankedJSONArray;
 
-public class DataPrices {
+public class DataPrices extends AbstractRankedJSONArray {
+	
+	//*****************NOT YET IMPLEMENTED**************************************************************************************************
+	
+	@Override
+	public void iterationMethod(JSONObject item) {
+		if (JSONData.getSaleInfo(item).containsKey("listPrice") && JSONData.getVolumeInfo(item).containsKey("pageCount")) {
+			if (this.rankedJSONArray.size() < getListLength()) {
+				addNewToRankedArray(item);
+			} else {
+				evaluateListForRanking(item);
+			}
+		}
+	}
+
+
+	@Override
+	public boolean evaluateListForRanking(JSONObject item) {
+		JSONObject arrayObj;
+		for (int i = 0; i < this.rankedJSONArray.size(); i++) {
+			arrayObj = (JSONObject) this.rankedJSONArray.get(i);
+			if (((double) createDesiredObject(item).get("costPerPage")) < ((double) arrayObj.get("costPerPage"))) {
+				removeOldFromRankedArray(i);
+				addNewToRankedArray(createDesiredObject(item));
+				return true;
+			}
+		}
+		return false;
+	}
+
+	
+	@SuppressWarnings("unchecked")
+	@Override
+	public JSONObject createDesiredObject(JSONObject item) {
+		JSONObject newObj = new JSONObject();
+		newObj.put("title", JSONData.getCostPerPage(JSONData.getAmount(JSONData.getListPrice(JSONData.getSaleInfo(item))), JSONData.getPageCount(JSONData.getVolumeInfo(item))));
+		newObj.put("costPerPage", JSONData.getCostPerPage(JSONData.getAmount(JSONData.getListPrice(JSONData.getSaleInfo(item))), JSONData.getPageCount(JSONData.getVolumeInfo(item))));
+		return newObj;
+	}
+	
+	//*****************OLD WORKING METHODS BELOW**************************************************************************************************
+	
+	
 
 	/***
 	 * Returns a list of the top cheapest books within the raw data in the format
@@ -59,7 +102,6 @@ public class DataPrices {
 				return topCheapestBooks;
 			}
 		}
-
 		return topCheapestBooks;
 	}
 
@@ -78,5 +120,6 @@ public class DataPrices {
 		array.add(newObj);
 		return array;
 	}
-	
+
+
 }

@@ -14,6 +14,7 @@ public class JSONData {
 	static String rawData;
 	static JSONObject json, volumeInfo;
 	static JSONArray items;
+	static boolean datasPopulated;
 
 	/**
 	 * Constructor sets rawData (to be formatted) creates JSONObjects & JSONArrays
@@ -23,11 +24,13 @@ public class JSONData {
 	 * @throws ParseException
 	 */
 	public JSONData(String rawData) throws ParseException {
+		datasPopulated = false;
 		JSONData.rawData = rawData;
 		JSONParser parser = new JSONParser();
 		JSONData.json = (JSONObject) parser.parse(rawData);
 		JSONData.items = (JSONArray) json.get("items");
 		System.out.println("static vars set :");
+		datasPopulated = true;
 	}
 
 	/**********************************************************************
@@ -97,6 +100,10 @@ public class JSONData {
 
 	public static JSONObject getListPrice(JSONObject saleInfo) {
 		return (JSONObject) saleInfo.get("listPrice");
+	}
+	
+	public static boolean isDatasPopulated() {
+		return datasPopulated;
 	}
 	
 }

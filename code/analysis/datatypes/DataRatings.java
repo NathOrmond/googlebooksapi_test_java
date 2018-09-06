@@ -6,10 +6,35 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import code.analysis.JSONData;
+import code.hci.AbstractRankedJSONArray;
 
-public class DataRatings {
+public class DataRatings extends AbstractRankedJSONArray {
 	
 
+	//*****************NOT YET IMPLEMENTED**************************************************************************************************
+
+	@Override
+	public void iterationMethod(JSONObject item) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public boolean evaluateListForRanking(JSONObject item) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public JSONObject createDesiredObject(JSONObject item) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	//*****************OLD WORKING METHODS BELOW**************************************************************************************************
+	
 	/**
 	 * Formats Raw Data to a JSONArray of the top n rated books in the following format:
 	 * <JSONArray highest rated books> [ n* <JSONOBject book> {title "", rating ""}]
@@ -87,5 +112,8 @@ public class DataRatings {
 		objs.set(index, replacementObj);
 		return objs;
 	}
+
+
+
 
 }
