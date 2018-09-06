@@ -2,7 +2,7 @@ package code.main;
 
 import java.io.IOException;
 import org.json.simple.parser.ParseException;
-import code.analysis.FormatData;
+import code.analysis.JSONData;
 import code.networking.SrvConnect;
 
 public class Composer {
@@ -11,11 +11,11 @@ public class Composer {
 	private String index = "0";
 	private String maxResults = "40";
 	private SrvConnect srvConn;
-	private  FormatData format;
+	private  JSONData format;
 
 	public Composer() throws IOException, ParseException {
 			srvConn = new SrvConnect(query,maxResults, index);
-			format= new FormatData(new SrvConnect(query, maxResults,index).getCompleteDataSet());
+			format= new JSONData(new SrvConnect(query, maxResults,index).getCompleteDataSet());
 	}
 	
 	
@@ -23,8 +23,8 @@ public class Composer {
 		return srvConn;
 	}
 	
-	public FormatData getFormat() throws ParseException, IOException {
-		return srvConn.isConnected() ? format : new FormatData(new SrvConnect(query, maxResults,index).getCompleteDataSet());
+	public JSONData getFormat() throws ParseException, IOException {
+		return srvConn.isConnected() ? format : new JSONData(new SrvConnect(query, maxResults,index).getCompleteDataSet());
 	}
 	
 	

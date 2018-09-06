@@ -15,6 +15,10 @@ import javax.swing.JTextArea;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+
+import code.analysis.datatypes.DataPrices;
+import code.analysis.datatypes.DataPublishers;
+import code.analysis.datatypes.DataRatings;
 import code.main.Composer;
 
 public class Panel extends JPanel implements ActionListener {
@@ -80,20 +84,19 @@ public class Panel extends JPanel implements ActionListener {
 	}
 
 	/**
-	 * adds new component to panel dependent on x and y grid (GridBagConstraint
-	 * Layout mgr)
+	 * adds new component to panel dependent on x and y grid (GridBagConstraint Layout manager)
 	 * 
-	 * @param c
+	 * @param component
 	 * @param x
 	 * @param y
 	 */
-	private void addComponentToPanel(Component c, int x, int y) {
+	private void addComponentToPanel(Component component, int x, int y) {
 		gbc.gridx = x;
 		gbc.gridy = y;
 		gbc.weightx = 1.0;
 		gbc.weighty = 1.0;
-		mgr.setConstraints(c, gbc);
-		this.add(c);
+		mgr.setConstraints(component, gbc);
+		this.add(component);
 	}
 
 	public JPanel getPanel() {
@@ -109,7 +112,6 @@ public class Panel extends JPanel implements ActionListener {
 			try {
 				q1();
 			} catch (IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		
@@ -120,7 +122,6 @@ public class Panel extends JPanel implements ActionListener {
 			try {
 				q2();
 			} catch (ParseException | IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		
@@ -131,7 +132,6 @@ public class Panel extends JPanel implements ActionListener {
 			try {
 				q3();
 			} catch (ParseException | IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		
@@ -142,7 +142,6 @@ public class Panel extends JPanel implements ActionListener {
 			try {
 				q4();
 			} catch (ParseException | IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		
@@ -162,25 +161,24 @@ public class Panel extends JPanel implements ActionListener {
 	}
 
 	private void q4() throws ParseException, IOException {
-		JSONObject json = c.getFormat().booksByPublisher();
+		JSONObject json = DataPublishers.booksByPublisher();
 		String str = json.toString();
 		updateOutput(formatOutputForDisplay(str.toCharArray()));
 	}
 
 	private void q3() throws ParseException, IOException {
-		JSONArray json = c.getFormat().topCheapestBooks(5);
+		JSONArray json = DataPrices.topCheapestBooks(5);
 		String str = json.toString();
 		updateOutput(formatOutputForDisplay(str.toCharArray()));
 	}
 
 	private void q2() throws ParseException, IOException {
-		JSONArray json = c.getFormat().getHighestRated(10);
+		JSONArray json = DataRatings.getHighestRated(10);
 		String str = json.toString();
 		updateOutput(formatOutputForDisplay(str.toCharArray()));
 	}
 
 	private void q1() throws IOException {
-		;
 		updateOutput(formatOutputForDisplay(c.getSrvConn().getCompleteDataSet().toCharArray()));
 	}
 
