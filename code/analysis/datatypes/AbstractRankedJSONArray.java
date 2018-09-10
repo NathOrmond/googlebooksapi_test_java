@@ -9,6 +9,10 @@ public abstract class AbstractRankedJSONArray {
 	
 	public JSONArray rankedJSONArray;
 	public int listLength;
+
+	public abstract JSONObject createDesiredObject(JSONObject item);
+	public abstract boolean conditionForRankedArrayObjectDisplacement(JSONObject item, JSONObject arrayCurrentIteration);
+	public abstract boolean containsTargetData(JSONObject item);
 	
 	public JSONArray getRankedArray(int listLength) {
 		if (JSONData.isDatasPopulated()) {
@@ -30,9 +34,28 @@ public abstract class AbstractRankedJSONArray {
 		}
 	}
 	
-	public abstract void iterationMethod(JSONObject item);
-	public abstract boolean evaluateListForRanking(JSONObject item);
-	public abstract JSONObject createDesiredObject(JSONObject item);
+	public void iterationMethod(JSONObject item) { 
+		if (containsTargetData(item)) {
+			if (this.rankedJSONArray.size() < getListLength()) {
+				addNewToRankedArray(createDesiredObject(item));
+			} else {
+				evaluateListForRanking(createDesiredObject(item));
+			}
+		}
+	}
+
+	public boolean evaluateListForRanking(JSONObject item) { 
+		JSONObject arrayCurrentIteration;
+		for (int i = 0; i < this.rankedJSONArray.size(); i++) {
+			arrayCurrentIteration = (JSONObject) this.rankedJSONArray.get(i);
+			if (conditionForRankedArrayObjectDisplacement(item, arrayCurrentIteration)) {
+				removeOldFromRankedArray(i);
+				addNewToRankedArray(item);
+				return true;
+			}
+		}
+		return false;
+	}
 	
 	@SuppressWarnings("unchecked")
 	public void addNewToRankedArray(JSONObject item) { 
