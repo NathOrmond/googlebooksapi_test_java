@@ -5,15 +5,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 
-import code.main.Main;
-
 public class TextFileReader {
 
 	private static String FILENAME;
 	private static String rawData;
 	URL url;
-	private Main main;
-
+	
+	/**
+	 * adds data in FILENAME line by line into rawData String.
+	 */
 	public static void readText() {
 		BufferedReader br = null;
 		FileReader fr = null;
@@ -25,11 +25,11 @@ public class TextFileReader {
 			br = new BufferedReader(fr);
 
 			String sCurrentLine;
-			rawData = "";
+			TextFileReader.rawData = "";
 			while ((sCurrentLine = br.readLine()) != null) {
-				rawData = rawData + sCurrentLine;
+				TextFileReader.rawData = TextFileReader.rawData + sCurrentLine;
 			}
-			TextFileReader.rawData = rawData;
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
@@ -45,7 +45,7 @@ public class TextFileReader {
 	}
 	
 	public static String getRawData() {
-		return rawData;
+		return TextFileReader.rawData;
 	}
 	
 	public static void setFILENAME() {

@@ -14,6 +14,10 @@ public abstract class AbstractRankedJSONArray {
 	public abstract boolean conditionForRankedArrayObjectDisplacement(JSONObject item, JSONObject arrayCurrentIteration);
 	public abstract boolean containsTargetData(JSONObject item);
 	
+	/**
+	 * @param listLength
+	 * @return ranked JSONArray of desired length and content if data exists, otherwise null
+	 */
 	public JSONArray getRankedArray(int listLength) {
 		if (JSONData.isDatasPopulated()) {
 			this.listLength = listLength;
@@ -26,6 +30,10 @@ public abstract class AbstractRankedJSONArray {
 		}
 	}
 
+	/**
+	 * iterates through each JSONObject within raw data; 
+	 * hence making each one the target of iteration.
+	 */
 	public void iterateThroughItemsLoop() { 
 		JSONObject item;
 		for (int i = 0; i < JSONData.getItems().size(); i++) {
@@ -34,6 +42,12 @@ public abstract class AbstractRankedJSONArray {
 		}
 	}
 	
+	/**
+	 * if the length of the current list is less than the desired return list length then 
+	 * current item must be added to the list (provided it contains the desired data parameters) 
+	 * otherwise call a method to see whether or not the targeted item deserves a place in the ranked list.
+	 * @param item
+	 */
 	public void iterationMethod(JSONObject item) { 
 		if (containsTargetData(item)) {
 			if (this.rankedJSONArray.size() < getListLength()) {
@@ -44,6 +58,16 @@ public abstract class AbstractRankedJSONArray {
 		}
 	}
 
+	/**
+	 * iterates through ranked JSONArray comparing the value of the parameter being selected for in each 
+	 * JSONArray object to the value in the current raw data object. 
+	 * 
+	 * If it meets conditinForRankedArrayObjectDisplacement (abstract boolean) then it will remove the old ranked 
+	 * item and add the new one.
+	 * 
+	 * @param item
+	 * @return true if successfully added
+	 */
 	public boolean evaluateListForRanking(JSONObject item) { 
 		JSONObject arrayCurrentIteration;
 		for (int i = 0; i < this.rankedJSONArray.size(); i++) {
