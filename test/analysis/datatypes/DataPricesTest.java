@@ -7,6 +7,8 @@ import org.junit.Before;
 import org.junit.Test;
 import code.analysis.JSONData;
 import code.analysis.datatypes.DataPrices;
+import resource.TextFileReader;
+
 import org.junit.Assert;
 /**
  * 
@@ -24,7 +26,7 @@ public class DataPricesTest {
 	static DataPrices dp;
 	
 	public DataPricesTest() {
-		// TODO Auto-generated constructor stub
+		//not used
 	}
 
 	@Before

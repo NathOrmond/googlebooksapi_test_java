@@ -1,4 +1,4 @@
-package test.analysis.datatypes;
+package resource;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

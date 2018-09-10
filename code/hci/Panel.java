@@ -168,15 +168,18 @@ public class Panel extends JPanel implements ActionListener {
 
 	private void q3() throws ParseException, IOException {
 		int rankedListLen = 5;
-		DataPrices d = new DataPrices();
-		updateOutput(formatOutputForDisplay(d.getRankedArray(rankedListLen).toJSONString().toCharArray()));	
+		DataPrices dataPrices = new DataPrices();
+		updateOutput(formatOutputForDisplay(dataPrices.getRankedArray(rankedListLen).toJSONString().toCharArray()));	
 	}
 
 	private void q2() throws ParseException, IOException {
-		JSONArray json = DataRatings.getHighestRated(10);
-		String str = json.toString();
+		int rankedListLen = 10;
+		DataRatings dataRatings = new DataRatings();
+		String str = dataRatings.getRankedArray(rankedListLen).toJSONString();
+		System.out.println(str);
 		updateOutput(formatOutputForDisplay(str.toCharArray()));
-	}
+				
+	} 
 
 	private void q1() throws IOException {
 		updateOutput(formatOutputForDisplay(c.getSrvConn().getCompleteDataSet().toCharArray()));

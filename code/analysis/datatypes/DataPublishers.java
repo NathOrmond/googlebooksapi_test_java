@@ -31,11 +31,9 @@ public class DataPublishers {
 	}
 
 	/**
-	 * 
-	 * 
 	 * @param publishers
 	 * @param item
-	 * @return
+	 * @return publishers (plus new publisher & relevant book).
 	 */
 	@SuppressWarnings("unchecked")
 	private static JSONObject addNewPublisher(JSONObject publishers, JSONObject item) {
@@ -47,11 +45,9 @@ public class DataPublishers {
 	}
 
 	/**
-	 * 
-	 * 
 	 * @param publishers
 	 * @param item
-	 * @return
+	 * @return publishers (plus new book inside an existing publisher).
 	 */
 	@SuppressWarnings("unchecked")
 	private static JSONObject addInstanceToExistingPublisher(JSONObject publishers, JSONObject item) {
