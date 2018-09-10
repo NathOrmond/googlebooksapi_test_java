@@ -25,7 +25,6 @@ public class JSONData {
 		JSONParser parser = new JSONParser();
 		JSONData.json = (JSONObject) parser.parse(rawData);
 		JSONData.items = (JSONArray) json.get("items");
-		System.out.println("static vars set :");
 		datasPopulated = true;
 	}
 

@@ -26,15 +26,10 @@ public class TextFileReader {
 
 			String sCurrentLine;
 			rawData = "";
-
-			System.out.println("##### TEST MODE : READING TEXT FILE#####");
 			while ((sCurrentLine = br.readLine()) != null) {
-				System.out.println(sCurrentLine);
 				rawData = rawData + sCurrentLine;
 			}
 			TextFileReader.rawData = rawData;
-			System.out.println("##### END READING TEXT FILE #####");
-
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {

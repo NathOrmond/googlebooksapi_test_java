@@ -47,4 +47,8 @@ public abstract class AbstractRankedJSONArray {
 		return listLength;
 	}
 	
+	public void setListLength(int listLength) {
+		this.listLength = listLength;
+	}
+	
 }
