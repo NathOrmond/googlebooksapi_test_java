@@ -6,7 +6,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import code.analysis.JSONData;
-import code.hci.AbstractRankedJSONArray;
 
 public class DataRatings extends AbstractRankedJSONArray {
 	

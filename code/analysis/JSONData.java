@@ -1,9 +1,5 @@
 package code.analysis;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -52,7 +48,6 @@ public class JSONData {
 	public static JSONArray getItems() {
 		return JSONData.items;
 	}
-	
 	
 	public static boolean publishersContainsPublisher(JSONObject publishers, String publisher) {
 		return publishers.containsKey("publisher");

@@ -1,4 +1,4 @@
-package code.hci;
+package code.analysis.datatypes;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -32,7 +32,6 @@ public abstract class AbstractRankedJSONArray {
 	
 	public abstract void iterationMethod(JSONObject item);
 	public abstract boolean evaluateListForRanking(JSONObject item);
-	
 	public abstract JSONObject createDesiredObject(JSONObject item);
 	
 	@SuppressWarnings("unchecked")

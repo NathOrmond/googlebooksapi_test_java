@@ -167,9 +167,9 @@ public class Panel extends JPanel implements ActionListener {
 	}
 
 	private void q3() throws ParseException, IOException {
-		JSONArray json = DataPrices.topCheapestBooks(5);
-		String str = json.toString();
-		updateOutput(formatOutputForDisplay(str.toCharArray()));
+		int rankedListLen = 5;
+		DataPrices d = new DataPrices();
+		updateOutput(formatOutputForDisplay(d.getRankedArray(rankedListLen).toJSONString().toCharArray()));	
 	}
 
 	private void q2() throws ParseException, IOException {

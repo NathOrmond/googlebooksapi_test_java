@@ -1,0 +1,1016 @@
+{
+ "kind": "books#volumes", "totalItems": 3164, "items": [  {
+   "kind": "books#volume",   "id": "tjOlkl7ecVQC",   "etag": "WrZj72C2Bhg",   "selfLink": "https://www.googleapis.com/books/v1/volumes/tjOlkl7ecVQC",   "volumeInfo": {
+    "title": "Elements of Programming",    "authors": [     "Alexander A. Stepanov",     "Paul McJones"    ],    "publisher": "Addison-Wesley Professional",    "publishedDate": "2009",    "description": "New techniques for building more secure, reliable, high-performance software, from the renowned creator of the C++ STL • • A truly foundational book on the discipline of generic programming: how to write better software by mastering the development of abstract components. • Based on Alexander Stepanov's breakthrough lectures to programmers at Adobe and throughout Silicon Valley. • For serious software developers, architects, and engineers, the perfect complement to Knuth's theory and Stoustrup's practice. Elements of Programming is the next breakthrough book for serious practitioners seeking ways to write better software. In this book, Alexander Stepanov - the legendary architect and creator of the C++ Standard Template Libraries - focuses on the discipline that offers the greatest potential for improving contemporary software: the proper development of abstract components. Drawing on his enormously popular lectures to programmers at Adobe and throughout Silicon Valley, Stepanov illuminates crucial techniques of generic programming, specifically focusing on abstraction as the key to secure, reliable, and high-performance software. Together with co-author and ACM Fellow Paul McJones, Stepanov shows programmers how to use mathematics to compose reliable algorithms from components, and to design effective interfaces between algorithms and data structures. Topics covered in Elements of Programming include: transformations, associative operations, linear orderings, ordered algebraic structures, iterators, coordinates and coordinate structures, copying algorithms, rearrangement, sorting, and much more. This book requires an understanding of mathematics, but is consistently focused on identifying superior solutions to practical programming problems. Stepanov and McJones illuminate their concepts and techniques with C++ code, but the techniques are equally applicable to a wide range of contemporary object-oriented languages.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780321635372"     }
+,     {
+      "type": "ISBN_10",      "identifier": "032163537X"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 262,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.1.0.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=tjOlkl7ecVQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=tjOlkl7ecVQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=tjOlkl7ecVQC&printsec=frontcover&dq=Programming&hl=&cd=1&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=tjOlkl7ecVQC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Elements_of_Programming.html?hl=&id=tjOlkl7ecVQC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=tjOlkl7ecVQC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "A truly foundational book on the discipline of generic programming reveals how to write better software by mastering the development of abstract components."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "BsLxCwAAQBAJ",   "etag": "U54ww3O90l8",   "selfLink": "https://www.googleapis.com/books/v1/volumes/BsLxCwAAQBAJ",   "volumeInfo": {
+    "title": "The Audio Programming Book",    "authors": [     "Richard Boulanger",     "Victor Lazzarini",     "Max Mathews"    ],    "publisher": "MIT Press",    "publishedDate": "2010-10-22",    "description": "This comprehensive handbook of mathematical and programming techniques for audio signal processing will be an essential reference for all computer musicians, computer scientists, engineers, and anyone interested in audio. Designed to be used by readers with varying levels of programming expertise, it not only provides the foundations for music and audio development but also tackles issues that sometimes remain mysterious even to experienced software designers. Exercises and copious examples (all cross-platform and based on free or open source software) make the book ideal for classroom use. Fifteen chapters and eight appendixes cover such topics as programming basics for C and C++ (with music-oriented examples), audio programming basics and more advanced topics, spectral audio programming; programming Csound opcodes, and algorithmic synthesis and music programming. Appendixes cover topics in compiling, audio and MIDI, computing, and math. An accompanying DVD provides an additional 40 chapters, covering musical and audio programs with micro-controllers, alternate MIDI controllers, video controllers, developing Apple Audio Unit plug-ins from Csound opcodes, and audio programming for the iPhone.The sections and chapters of the book are arranged progressively and topics can be followed from chapter to chapter and from section to section. At the same time, each section can stand alone as a self-contained unit. Readers will find The Audio Programming Book a trustworthy companion on their journey through making music and programming audio on modern computers.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780262288606"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0262288605"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 920,    "printType": "BOOK",    "categories": [     "Music"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.1.0.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BsLxCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=BsLxCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=BsLxCwAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=2&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=BsLxCwAAQBAJ&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/The_Audio_Programming_Book.html?hl=&id=BsLxCwAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/The_Audio_Programming_Book-sample-pdf.acsm?id=BsLxCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=BsLxCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "At the same time, each section can stand alone as a self-contained unit. Readers will find The Audio Programming Book a trustworthy companion on their journey through making music and programming audio on modern computers."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "Rl-F95_f0GoC",   "etag": "a4Cu3KZOo/Y",   "selfLink": "https://www.googleapis.com/books/v1/volumes/Rl-F95_f0GoC",   "volumeInfo": {
+    "title": "COMPUTER PROGRAMMING IN C",    "authors": [     "V. RAJARAMAN"    ],    "publisher": "PHI Learning Pvt. Ltd.",    "publishedDate": "1994-01-01",    "description": "This book introduces computer programming to a beginner using the programming language C. The version of C used is the one standardised by the American National Standards Institute (ANSI C). C has rapidly gained users due to its efficiency, rich data structure, variety of operators and affinity to UNIX operating system. C is a difficult language to learn if it is not methodically approached. Our attempt has been to introduce the basic aspects of C to enable the student to quickly start writing C programs and postpone more difficult features of C to later chapters. The methodology of presentation closely follows the one used by the author in his popular book on PASCAL programming. Those who know PASCAL will find it very easy to learn C using this book.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "812030859X"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788120308596"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 372,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 4,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "0.2.2.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Rl-F95_f0GoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=Rl-F95_f0GoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=Rl-F95_f0GoC&printsec=frontcover&dq=Programming&hl=&cd=3&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=Rl-F95_f0GoC&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-Rl-F95_f0GoC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 3.36,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 2.52,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=Rl-F95_f0GoC&rdid=book-Rl-F95_f0GoC&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 3360000.0,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 2520000.0,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/COMPUTER_PROGRAMMING_IN_C-sample-pdf.acsm?id=Rl-F95_f0GoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=Rl-F95_f0GoC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "This book introduces computer programming to a beginner using the programming language C. The version of C used is the one standardised by the American National Standards Institute (ANSI C). C has rapidly gained users due to its efficiency, ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "7Uh8XGfJbEIC",   "etag": "QeqLPVTd9yE",   "selfLink": "https://www.googleapis.com/books/v1/volumes/7Uh8XGfJbEIC",   "volumeInfo": {
+    "title": "Concepts in Programming Languages",    "authors": [     "John C. Mitchell"    ],    "publisher": "Cambridge University Press",    "publishedDate": "2003",    "description": "A comprehensive undergraduate textbook covering both theory and practical design issues, with an emphasis on object-oriented languages.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0521780985"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780521780988"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 529,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 3.5,    "ratingsCount": 5,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "1.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=7Uh8XGfJbEIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=7Uh8XGfJbEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=7Uh8XGfJbEIC&printsec=frontcover&dq=Programming&hl=&cd=4&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=7Uh8XGfJbEIC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Concepts_in_Programming_Languages.html?hl=&id=7Uh8XGfJbEIC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Concepts_in_Programming_Languages-sample-pdf.acsm?id=7Uh8XGfJbEIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=7Uh8XGfJbEIC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "A comprehensive undergraduate textbook covering both theory and practical design issues, with an emphasis on object-oriented languages."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "6hjjAOs4uGAC",   "etag": "1oesF8RN3uI",   "selfLink": "https://www.googleapis.com/books/v1/volumes/6hjjAOs4uGAC",   "volumeInfo": {
+    "title": "Beginning Programming For Dummies",    "authors": [     "Wallace Wang"    ],    "publisher": "John Wiley & Sons",    "publishedDate": "2011-02-25",    "description": "Do you think the programmers who work at your office are magical wizards who hold special powers that manipulate your computer? Believe it or not, anyone can learn how to write programs, and it doesn’t take a higher math and science education to start. Beginning Programming for Dummies shows you how computer programming works without all the technical details or hard programming language. It explores the common parts of every computer programming language and how to write for multiple platforms like Windows, Mac OS X, or Linux. This easily accessible guide provides you with the tools you need to: Create programs and divide them into subprograms Develop variables and use constants Manipulate strings and convert them into numbers Use an array as storage space Reuse and rewrite code Isolate data Create a user interface Write programs for the Internet Utilize JavaScript and Java Applets In addition to these essential building blocks, this guide features a companion CD-ROM containing Liberty BASIC compiler and code in several languages. It also provides valuable programming resources and lets you in on cool careers for programmers. With Beginning Programming of Dummies, you can take charge of your computer and begin programming today!",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "1118051076"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9781118051078"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 408,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 5.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "1.3.5.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=6hjjAOs4uGAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=6hjjAOs4uGAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=6hjjAOs4uGAC&printsec=frontcover&dq=Programming&hl=&cd=5&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=6hjjAOs4uGAC&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-6hjjAOs4uGAC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 12.99,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 12.99,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=6hjjAOs4uGAC&rdid=book-6hjjAOs4uGAC&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 1.299E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 1.299E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Beginning_Programming_For_Dummies-sample-epub.acsm?id=6hjjAOs4uGAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Beginning_Programming_For_Dummies-sample-pdf.acsm?id=6hjjAOs4uGAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=6hjjAOs4uGAC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Do you think the programmers who work at your office are magicalwizards who hold special powers that manipulate your computer?Believe it or not, anyone can learn how to write programs, and itdoesn’t take a higher math and science ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "I6BOBAAAQBAJ",   "etag": "X79gflDj4es",   "selfLink": "https://www.googleapis.com/books/v1/volumes/I6BOBAAAQBAJ",   "volumeInfo": {
+    "title": "Programming in C",    "authors": [     "Stephen G. Kochan"    ],    "publisher": "Addison-Wesley Professional",    "publishedDate": "2014-08-18",    "description": "Programming in C will teach you how to write programs in the C programming language. Whether you’re a novice or experienced programmer, this book will provide you with a clear understanding of this language, which is the foundation for many object-oriented programming languages such as C++, Objective-C, C#, and Java. This book teaches C by example, with complete C programs used to illustrate each new concept along the way. Stephen Kochan provides step-by-step explanations for all C functions. You will learn both the language fundamentals and good programming practices. Exercises at the end of each chapter make the book ideally suited for classroom use or for self-instruction. All the features of the C language are covered in this book, including the latest additions added with the C11 standard. Appendixes provide a detailed summary of the language and the standard C library, both organized for quick reference. “Absolutely the best book for anyone starting out programming in C. This is an excellent introductory text with frequent examples and good text.…This is the book I used to learn C–it’s a great book.�? –Vinit S. Carpenter, Learn C/C++ Today",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780132781190"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0132781190"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 552,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 1.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "2.5.4.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=I6BOBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=I6BOBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=I6BOBAAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=6&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=I6BOBAAAQBAJ&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-I6BOBAAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 22.0,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 20.24,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=I6BOBAAAQBAJ&rdid=book-I6BOBAAAQBAJ&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 2.2E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 2.024E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=I6BOBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Exercises at the end of each chapter make the book ideally suited for classroom use or for self-instruction. All the features of the C language are covered in this book, including the latest additions added with the C11 standard."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "ti6zoAC9Ph8C",   "etag": "1sMdW+hf6nI",   "selfLink": "https://www.googleapis.com/books/v1/volumes/ti6zoAC9Ph8C",   "volumeInfo": {
+    "title": "Types and Programming Languages",    "authors": [     "Benjamin C. Pierce"    ],    "publisher": "MIT Press",    "publishedDate": "2002",    "description": "A comprehensive introduction to type systems and programming languages.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0262162091"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780262162098"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 623,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 9,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ti6zoAC9Ph8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=ti6zoAC9Ph8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=ti6zoAC9Ph8C&printsec=frontcover&dq=Programming&hl=&cd=7&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=ti6zoAC9Ph8C&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Types_and_Programming_Languages.html?hl=&id=ti6zoAC9Ph8C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=ti6zoAC9Ph8C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Mathematical Preliminaries - Untyped Systems - Untyped Arithmetic Expressions - An ML Implementation of Arithmetic Expressions - The Untyped Lambda-Calculus - Nameless Representation of Terms - An ML Implementation of the Lambda-Calculus - ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "CEc2WsZkxUsC",   "etag": "C27lWCA1khk",   "selfLink": "https://www.googleapis.com/books/v1/volumes/CEc2WsZkxUsC",   "volumeInfo": {
+    "title": "Programming In C",    "authors": [     "D Ravichandran"    ],    "publisher": "New Age International",    "publishedDate": "1996",    "description": "It Introduces The C Programming Language To Both The Computer Novices And To The Advanced Software Engineers In A Well Organized And Systematic Manner. It Does Not Assume Any Preliminary Knowledge Of Computer Programming Of A Reader. It Covers Almost All Topics With Numerous Illustrative Examples And Well Graded Problems. Some Of The Chapters Such As Pointers, Preprocessors, Structures, Unions And The File Operations Are Thoroughly Discussed With Suitable Number Of Examples. The Source Code Of The Editor Package Has Been Included As An Appendix Of The Book.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8122407854"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788122407853"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 400,    "printType": "BOOK",    "categories": [     "C (Computer program language)"    ],    "averageRating": 4.0,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=CEc2WsZkxUsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=CEc2WsZkxUsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=CEc2WsZkxUsC&printsec=frontcover&dq=Programming&hl=&cd=8&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=CEc2WsZkxUsC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_In_C.html?hl=&id=CEc2WsZkxUsC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=CEc2WsZkxUsC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Some Of The Chapters Such As Pointers, Preprocessors, Structures, Unions And The File Operations Are Thoroughly Discussed With Suitable Number Of Examples. The Source Code Of The Editor Package Has Been Included As An Appendix Of The Book."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "nTzwm3JZmIgC",   "etag": "86nD3IjCjCs",   "selfLink": "https://www.googleapis.com/books/v1/volumes/nTzwm3JZmIgC",   "volumeInfo": {
+    "title": "Basic Computer Programming",    "authors": [     "V.K. Jain"    ],    "publisher": "Pustak Mahal",    "publishedDate": "2004-11",    "description": "Thinking about Computer Programming as a career option? Completely revised and updated, this basic computer programming book can launch you onto a bright career. Meant for both freshers as well as advanced users,it is an authentic volume for learners to use a computer without any outside help. the guide is designed for self-help learning. Some salient features: *Historical evolution of the computer. *Computer characteristics, anatomy & architecture. *Flow charts, Getting started with BASIC, Arithmetic / Input / Control / Conditional Statement. *Putting data out of computers. *Some programming applications, Arrays, Library, user defined functions; Subroutines, Sequential files. *System commands; Programming design & problem solving.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8122306373"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788122306378"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 260,    "printType": "BOOK",    "categories": [     "BASIC (Computer program language)"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "0.0.1.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=nTzwm3JZmIgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=nTzwm3JZmIgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=nTzwm3JZmIgC&printsec=frontcover&dq=Programming&hl=&cd=9&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=nTzwm3JZmIgC&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-nTzwm3JZmIgC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 3.59,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 2.69,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=nTzwm3JZmIgC&rdid=book-nTzwm3JZmIgC&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 3590000.0,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 2690000.0,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Basic_Computer_Programming-sample-pdf.acsm?id=nTzwm3JZmIgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=nTzwm3JZmIgC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Meant for both freshers as well as advanced users,it is an authentic volume for learners to use a computer without any outside help. the guide is designed for self-help learning."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "JE8ZAQAAIAAJ",   "etag": "Wb2mfWJEi2w",   "selfLink": "https://www.googleapis.com/books/v1/volumes/JE8ZAQAAIAAJ",   "volumeInfo": {
+    "title": "A short introduction to the art of programming",    "authors": [     "Edsger Wybe Dijkstra"    ],    "publishedDate": "1971",    "industryIdentifiers": [     {
+      "type": "OTHER",      "identifier": "STANFORD:36105002081755"     }
+    ],    "readingModes": {
+     "text": false,     "image": false    }
+,    "pageCount": 97,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "language": "ar",    "previewLink": "http://books.google.co.uk/books?id=JE8ZAQAAIAAJ&q=Programming&dq=Programming&hl=&cd=10&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=JE8ZAQAAIAAJ&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/A_short_introduction_to_the_art_of_progr.html?hl=&id=JE8ZAQAAIAAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "NO_PAGES",    "embeddable": false,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=JE8ZAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "NONE",    "quoteSharingAllowed": false   }
+  }
+,  {
+   "kind": "books#volume",   "id": "PSUNAAAAQBAJ",   "etag": "UmidTGUVwxI",   "selfLink": "https://www.googleapis.com/books/v1/volumes/PSUNAAAAQBAJ",   "volumeInfo": {
+    "title": "The C++ Programming Language",    "authors": [     "Bjarne Stroustrup"    ],    "publisher": "Addison-Wesley",    "publishedDate": "2013-07-10",    "description": "The new C++11 standard allows programmers to express ideas more clearly, simply, and directly, and to write faster, more efficient code. Bjarne Stroustrup, the designer and original implementer of C++, has reorganized, extended, and completely rewritten his definitive reference and tutorial for programmers who want to use C++ most effectively. The C++ Programming Language, Fourth Edition, delivers meticulous, richly explained, and integrated coverage of the entire language—its facilities, abstraction mechanisms, standard libraries, and key design techniques. Throughout, Stroustrup presents concise, “pure C++11�? examples, which have been carefully crafted to clarify both usage and program design. To promote deeper understanding, the author provides extensive cross-references, both within the book and to the ISO standard. New C++11 coverage includes Support for concurrency Regular expressions, resource management pointers, random numbers, and improved containers General and uniform initialization, simplified for-statements, move semantics, and Unicode support Lambdas, general constant expressions, control over class defaults, variadic templates, template aliases, and user-defined literals Compatibility issues Topics addressed in this comprehensive book include Basic facilities: type, object, scope, storage, computation fundamentals, and more Modularity, as supported by namespaces, source files, and exception handling C++ abstraction, including classes, class hierarchies, and templates in support of a synthesis of traditional programming, object-oriented programming, and generic programming Standard Library: containers, algorithms, iterators, utilities, strings, stream I/O, locales, numerics, and more The C++ basic memory model, in depth This fourth edition makes C++11 thoroughly accessible to programmers moving from C++98 or other languages, while introducing insights and techniques that even cutting-edge C++11 programmers will find indispensable. This book features an enhanced, layflat binding, which allows the book to stay open more easily when placed on a flat surface. This special binding method—noticeable by a small space inside the spine—also increases durability.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780133522853"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0133522857"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 1363,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 3.0,    "ratingsCount": 3,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "2.13.11.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=PSUNAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=PSUNAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=PSUNAAAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=11&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=PSUNAAAAQBAJ&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-PSUNAAAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 35.5,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 35.5,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=PSUNAAAAQBAJ&rdid=book-PSUNAAAAQBAJ&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 3.55E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 3.55E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=PSUNAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "This book features an enhanced, layflat binding, which allows the book to stay open more easily when placed on a flat surface. This special binding method—noticeable by a small space inside the spine—also increases durability."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "TpdNkiHai4IC",   "etag": "Wu7RiaIVCds",   "selfLink": "https://www.googleapis.com/books/v1/volumes/TpdNkiHai4IC",   "volumeInfo": {
+    "title": "Computer Concepts and Programming in C",    "authors": [     "A.P.Godse",     "D.A.Godse"    ],    "publisher": "Technical Publications",    "publishedDate": "2008-01-01",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8184315023"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788184315028"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 572,    "printType": "BOOK",    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=TpdNkiHai4IC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=TpdNkiHai4IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=TpdNkiHai4IC&printsec=frontcover&dq=Programming&hl=&cd=12&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=TpdNkiHai4IC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Computer_Concepts_and_Programming_in_C.html?hl=&id=TpdNkiHai4IC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=TpdNkiHai4IC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+  }
+,  {
+   "kind": "books#volume",   "id": "0drDRT370eoC",   "etag": "17nHWZr614s",   "selfLink": "https://www.googleapis.com/books/v1/volumes/0drDRT370eoC",   "volumeInfo": {
+    "title": "A Small Matter of Programming",    "subtitle": "Perspectives on End User Computing",    "authors": [     "Bonnie A. Nardi"    ],    "publisher": "MIT Press",    "publishedDate": "1993",    "description": "Analyzes cognitive, social and technical issues of end user programming. Drawing on empirical research on existing end user systems, this text examines the importance of task-specific programming languages, visual application frameworks and collaborative work practices for end user computing.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0262140535"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780262140539"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 162,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0drDRT370eoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=0drDRT370eoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=0drDRT370eoC&printsec=frontcover&dq=Programming&hl=&cd=13&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=0drDRT370eoC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/A_Small_Matter_of_Programming.html?hl=&id=0drDRT370eoC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=0drDRT370eoC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Drawing on empirical research on existing end user systems, this text examines the importance of task-specific programming languages, visual application frameworks and collaborative work practices for end user computing."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "aJQILlLxRmAC",   "etag": "IOEZbepGOys",   "selfLink": "https://www.googleapis.com/books/v1/volumes/aJQILlLxRmAC",   "volumeInfo": {
+    "title": "Python Programming",    "subtitle": "An Introduction to Computer Science",    "authors": [     "John M. Zelle"    ],    "publisher": "Franklin, Beedle & Associates, Inc.",    "publishedDate": "2004",    "description": "This book is suitable for use in a university-level first course in computing (CS1), as well as the increasingly popular course known as CS0. It is difficult for many students to master basic concepts in computer science and programming. A large portion of the confusion can be blamed on the complexity of the tools and materials that are traditionally used to teach CS1 and CS2. This textbook was written with a single overarching goal: to present the core concepts of computer science as simply as possible without being simplistic.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9781887902991"     }
+,     {
+      "type": "ISBN_10",      "identifier": "1887902996"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 517,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 19,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=aJQILlLxRmAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=aJQILlLxRmAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=aJQILlLxRmAC&printsec=frontcover&dq=Programming&hl=&cd=14&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=aJQILlLxRmAC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Python_Programming.html?hl=&id=aJQILlLxRmAC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=aJQILlLxRmAC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "This book is suitable for use in a university-level first course in computing (CS1), as well as the increasingly popular course known as CS0."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "LjlpnHmY08AC",   "etag": "YHwb34W09xI",   "selfLink": "https://www.googleapis.com/books/v1/volumes/LjlpnHmY08AC",   "volumeInfo": {
+    "title": "An Introduction to Programming With C++",    "authors": [     "Diane Zak"    ],    "publisher": "Cengage Learning",    "publishedDate": "2010-01-06",    "description": "An Introduction to Programming with C++, Sixth Edition is the latest C++ offering from Diane Zak. This book is distinct from other textbooks because of its unique approach, which motivates students by demonstrating why they need to learn the concepts and skills presented. Each chapter contains Mini-Quizzes, Labs, and Try This features to help readers practice and absorb the content as they go along. This edition also includes completely new applications and exercises, more IPO charts and flowcharts, and a brand new interior design. Important Notice: Media content referenced within the product description or the product text may not be available in the ebook version.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780538466523"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0538466529"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 944,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 3.0,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=LjlpnHmY08AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=LjlpnHmY08AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=LjlpnHmY08AC&printsec=frontcover&dq=Programming&hl=&cd=15&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=LjlpnHmY08AC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/An_Introduction_to_Programming_With_C++.html?hl=&id=LjlpnHmY08AC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=LjlpnHmY08AC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "This book is distinct from other textbooks because of its unique approach, which motivates students by demonstrating why they need to learn the concepts and skills presented."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "MZRt-W8Hq7UC",   "etag": "VJCBj2iCmuc",   "selfLink": "https://www.googleapis.com/books/v1/volumes/MZRt-W8Hq7UC",   "volumeInfo": {
+    "title": "Programming for TV, Radio, and the Internet",    "subtitle": "Strategy, Development, and Evaluation",    "authors": [     "Philippe Perebinossoff",     "Brian Gross",     "Lynne S. Gross"    ],    "publisher": "Taylor & Francis",    "publishedDate": "2005",    "description": "Where do program ideas come from? How are concepts developed into saleable productions? Who do you talk to about getting a show produced? How do you schedule shows on the lineup? What do you do if a series is in trouble? The answers to these questions, and many more, can be found in this comprehensive, in-depth look at the roles and responsibilities of the electronic media programmer. Topics include: Network relationships with affiliates, the expanded market of syndication, sources of programming for stations and networks, research and its role in programming decisions, fundamental appeals to an audience and what qualities are tied to success, outside forces that influence programming, strategies for launching new programs or saving old ones. Includes real-life examples taken from the authors' experiences, and 250+ illustrations! * Completely updated to include: new programming forms, changes in programming style, and more! * Updated Glossary! * Study questions for each chapter * Companion website for students and Instructor's Manual",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780240806822"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0240806824"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 324,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=MZRt-W8Hq7UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=MZRt-W8Hq7UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=MZRt-W8Hq7UC&printsec=frontcover&dq=Programming&hl=&cd=16&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=MZRt-W8Hq7UC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_for_TV_Radio_and_the_Interne.html?hl=&id=MZRt-W8Hq7UC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=MZRt-W8Hq7UC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Where do program ideas come from?"   }
+  }
+,  {
+   "kind": "books#volume",   "id": "jpMKtpySv08C",   "etag": "Y8Ap24DA8RQ",   "selfLink": "https://www.googleapis.com/books/v1/volumes/jpMKtpySv08C",   "volumeInfo": {
+    "title": "COMPUTER PROGRAMMING IN FORTRAN 90 AND 95",    "authors": [     "V. RAJARAMAN"    ],    "publisher": "PHI Learning Pvt. Ltd.",    "publishedDate": "1997-01-01",    "description": "This book introduces Computer Programming to a beginner, using Fortran 90 and its recent extension Fortran 95. While Fortran 77 has been used for many years and is currently very popular, computer scientists have been seriously concerned about good programming practice to promote development of reliable programs. Thus, the International Standards Organization set up a group to 'modernise' Fortran and introduce new features which have made languages such as Pascal and C popular. The committee took over a decade to come up with the new standard, Fortran 90. Fortran 90 has introduced many new features in Fortran, such as recursion, pointers, user-defined data types etc., which were hitherto available only in languages such as Pascal and C. Fortran 90 is not an evolutionary change of Fortran 77 but is drastically different. Though Fortran 77 programs can be run using a Fortran 90 compiler, Fortran 90 is so different that the author felt it was not a good idea to just revise Fortran 77 and introduce Fortran 90 in some places in the book. Thus this book is entirely new and introduces Fortran 90 from basics. In 1996 some small extensions were made to Fortran 90 and has called Fortran 95. This book also discusses these features. As all new programs in Fortran will henceforth be written in Fortran 90, it is essential for students to learn this language.The methodology of presentation, however, closely follows the one used by the author in his popular book on Fortran 77.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8120311817"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788120311817"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 360,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 3,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "0.4.2.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=jpMKtpySv08C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=jpMKtpySv08C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=jpMKtpySv08C&printsec=frontcover&dq=Programming&hl=&cd=17&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=jpMKtpySv08C&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-jpMKtpySv08C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 7.2,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 4.54,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=jpMKtpySv08C&rdid=book-jpMKtpySv08C&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 7200000.0,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 4540000.0,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/COMPUTER_PROGRAMMING_IN_FORTRAN_90_AND_9-sample-pdf.acsm?id=jpMKtpySv08C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=jpMKtpySv08C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Thus this book is entirely new and introduces Fortran 90 from basics. In 1996 some small extensions were made to Fortran 90 and has called Fortran 95. This book also discusses these features."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "iJoKYSWCubEC",   "etag": "aE1wDTOnkxw",   "selfLink": "https://www.googleapis.com/books/v1/volumes/iJoKYSWCubEC",   "volumeInfo": {
+    "title": "Beginning R",    "subtitle": "The Statistical Programming Language",    "authors": [     "Mark Gardener"    ],    "publisher": "John Wiley & Sons",    "publishedDate": "2012-05-24",    "description": "Conquer the complexities of this open source statistical language R is fast becoming the de facto standard for statistical computing and analysis in science, business, engineering, and related fields. This book examines this complex language using simple statistical examples, showing how R operates in a user-friendly context. Both students and workers in fields that require extensive statistical analysis will find this book helpful as they learn to use R for simple summary statistics, hypothesis testing, creating graphs, regression, and much more. It covers formula notation, complex statistics, manipulating data and extracting components, and rudimentary programming. R, the open source statistical language increasingly used to handle statistics and produces publication-quality graphs, is notoriously complex This book makes R easier to understand through the use of simple statistical examples, teaching the necessary elements in the context in which R is actually used Covers getting started with R and using it for simple summary statistics, hypothesis testing, and graphs Shows how to use R for formula notation, complex statistics, manipulating data, extracting components, and regression Provides beginning programming instruction for those who want to write their own scripts Beginning R offers anyone who needs to perform statistical analysis the information necessary to use R with confidence.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9781118239377"     }
+,     {
+      "type": "ISBN_10",      "identifier": "1118239377"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 504,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 5.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "2.6.5.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=iJoKYSWCubEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=iJoKYSWCubEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=iJoKYSWCubEC&printsec=frontcover&dq=Programming&hl=&cd=18&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=iJoKYSWCubEC&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-iJoKYSWCubEC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 20.99,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 20.99,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=iJoKYSWCubEC&rdid=book-iJoKYSWCubEC&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 2.099E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 2.099E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Beginning_R-sample-epub.acsm?id=iJoKYSWCubEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Beginning_R-sample-pdf.acsm?id=iJoKYSWCubEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=iJoKYSWCubEC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Beginning R: Discusses how to implement some basic statistical methods suchas the t-test, correlation, and tests of association Explains how to turn your graphs from merely adequate to simplystunning Provides you with the ability to define ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "kNZHC-ODtCcC",   "etag": "j48AkSnE+2c",   "selfLink": "https://www.googleapis.com/books/v1/volumes/kNZHC-ODtCcC",   "volumeInfo": {
+    "title": "Programming In Basic",    "authors": [     "Balagurusamy"    ],    "publisher": "Tata McGraw-Hill Education",    "publishedDate": "1991",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0074600559"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780074600559"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 317,    "printType": "BOOK",    "categories": [     "BASIC (Computer program language)"    ],    "averageRating": 4.5,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kNZHC-ODtCcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=kNZHC-ODtCcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=kNZHC-ODtCcC&printsec=frontcover&dq=Programming&hl=&cd=19&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=kNZHC-ODtCcC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_In_Basic.html?hl=&id=kNZHC-ODtCcC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=kNZHC-ODtCcC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+  }
+,  {
+   "kind": "books#volume",   "id": "mCfQtJH9WzwC",   "etag": "lfE+dLoZevs",   "selfLink": "https://www.googleapis.com/books/v1/volumes/mCfQtJH9WzwC",   "volumeInfo": {
+    "title": "Programming for Chemical Engineers Using C, C++, and MATLAB®",    "authors": [     "R. Kapuno"    ],    "publisher": "Jones & Bartlett Publishers",    "publishedDate": "2008",    "description": "Designed for chemical engineering students and industry professionals, this book shows how to write reusable computer programs. Written in the three languages (C, C++, and MATLAB), it is accompanied by a CD-ROM featuring source code, executables, figures, and simulations. It also explains each program in detail.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9781934015094"     }
+,     {
+      "type": "ISBN_10",      "identifier": "1934015091"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 449,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=mCfQtJH9WzwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=mCfQtJH9WzwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=mCfQtJH9WzwC&printsec=frontcover&dq=Programming&hl=&cd=20&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=mCfQtJH9WzwC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_for_Chemical_Engineers_Using.html?hl=&id=mCfQtJH9WzwC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=mCfQtJH9WzwC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Designed for chemical engineering students and industry professionals, Programming for Chemical Engineers Using C, C++, and MATLAB® shows how to write reusable computer programs by guiding the reader through the process of: establishing ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "wftS4tj4XFMC",   "etag": "KMCS+rX8gEw",   "selfLink": "https://www.googleapis.com/books/v1/volumes/wftS4tj4XFMC",   "volumeInfo": {
+    "title": "The Scheme Programming Language",    "authors": [     "R. Kent Dybvig"    ],    "publisher": "MIT Press",    "publishedDate": "2003",    "description": "The thoroughly updated third edition of a popular introductory and reference text for standard Scheme, with examples and exercises.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0262541483"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780262541480"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 295,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 5,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=wftS4tj4XFMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=wftS4tj4XFMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=wftS4tj4XFMC&printsec=frontcover&dq=Programming&hl=&cd=21&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=wftS4tj4XFMC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/The_Scheme_Programming_Language.html?hl=&id=wftS4tj4XFMC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=wftS4tj4XFMC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "The thoroughly updated third edition of a popular introductory and reference text forstandard Scheme, with examples and exercises."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "cYULBAAAQBAJ",   "etag": "4C48Xz8kYKA",   "selfLink": "https://www.googleapis.com/books/v1/volumes/cYULBAAAQBAJ",   "volumeInfo": {
+    "title": "The Art of Computer Programming",    "subtitle": "Volume 3: Sorting and Searching",    "authors": [     "Donald E. Knuth"    ],    "publisher": "Addison-Wesley Professional",    "publishedDate": "1998-04-24",    "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming. —Byte, September 1995 I can't begin to tell you how many pleasurable hours of study and recreation they have afforded me! I have pored over them in cars, restaurants, at work, at home... and even at a Little League game when my son wasn't in the line-up. —Charles Long If you think you're a really good programmer... read [Knuth's] Art of Computer Programming... You should definitely send me a resume if you can read the whole thing. —Bill Gates It's always a pleasure when a problem is hard enough that you have to get the Knuths off the shelf. I find that merely opening one has a very useful terrorizing effect on computers. —Jonathan Laventhol The first revision of this third volume is the most comprehensive survey of classical computer techniques for sorting and searching. It extends the treatment of data structures in Volume 1 to consider both large and small databases and internal and external memories. The book contains a selection of carefully checked computer methods, with a quantitative analysis of their efficiency. Outstanding features of the second edition include a revised section on optimum sorting and new discussions of the theory of permutations and of universal hashing.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780321635785"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0321635787"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 800,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 3,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "2.4.3.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=cYULBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=cYULBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=cYULBAAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=22&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=cYULBAAAQBAJ&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-cYULBAAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 45.59,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 31.79,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=cYULBAAAQBAJ&rdid=book-cYULBAAAQBAJ&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 4.559E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 3.179E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=cYULBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "The bible of all fundamental algorithms and the work that taught many of today&#39;s software developers most of what they know about computer programming. —Byte, September 1995 I can&#39;t begin to tell you how many pleasurable hours of study ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "f8YBM1823C8C",   "etag": "e/HuIQXC77I",   "selfLink": "https://www.googleapis.com/books/v1/volumes/f8YBM1823C8C",   "volumeInfo": {
+    "title": "Learning Computer Programming",    "subtitle": "It's Not about Languages",    "authors": [     "Mary Farrell"    ],    "publisher": "Charles River Media",    "publishedDate": "2001-09",    "description": "Aimed at aspiring programmers, teaches basic cross-language programming skills, including the concepts of loops, strings, arrays, and pointers.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "1584500611"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9781584500612"     }
+    ],    "readingModes": {
+     "text": false,     "image": false    }
+,    "pageCount": 374,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 5.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "1.1.1.0.preview.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=f8YBM1823C8C&printsec=frontcover&img=1&zoom=5&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=f8YBM1823C8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=f8YBM1823C8C&dq=Programming&hl=&cd=23&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=f8YBM1823C8C&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Learning_Computer_Programming.html?hl=&id=f8YBM1823C8C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "NO_PAGES",    "embeddable": false,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=f8YBM1823C8C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "NONE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Aimed at aspiring programmers, teaches basic cross-language programming skills, including the concepts of loops, strings, arrays, and pointers."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "q8W3WQbNWmkC",   "etag": "UfrJuuGkj6w",   "selfLink": "https://www.googleapis.com/books/v1/volumes/q8W3WQbNWmkC",   "volumeInfo": {
+    "title": "Programming Python",    "subtitle": "Powerful Object-Oriented Programming",    "authors": [     "Mark Lutz"    ],    "publisher": "\"O'Reilly Media, Inc.\"",    "publishedDate": "2010-12-14",    "description": "If you've mastered Python's fundamentals, you're ready to start using it to get real work done. Programming Python will show you how, with in-depth tutorials on the language's primary application domains: system administration, GUIs, and the Web. You'll also explore how Python is used in databases, networking, front-end scripting layers, text processing, and more. This book focuses on commonly used tools and libraries to give you a comprehensive understanding of Python’s many roles in practical, real-world programming. You'll learn language syntax and programming techniques in a clear and concise manner, with lots of examples that illustrate both correct usage and common idioms. Completely updated for version 3.x, Programming Python also delves into the language as a software development tool, with many code examples scaled specifically for that purpose. Topics include: Quick Python tour: Build a simple demo that includes data representation, object-oriented programming, object persistence, GUIs, and website basics System programming: Explore system interface tools and techniques for command-line scripting, processing files and folders, running programs in parallel, and more GUI programming: Learn to use Python’s tkinter widget library Internet programming: Access client-side network protocols and email tools, use CGI scripts, and learn website implementation techniques More ways to apply Python: Implement data structures, parse text-based information, interface with databases, and extend and embed Python",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "1449302750"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9781449302757"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 1632,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 2.0,    "ratingsCount": 4,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "0.7.7.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=q8W3WQbNWmkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=q8W3WQbNWmkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=q8W3WQbNWmkC&printsec=frontcover&dq=Programming&hl=&cd=24&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=q8W3WQbNWmkC&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-q8W3WQbNWmkC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 44.39,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 28.85,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=q8W3WQbNWmkC&rdid=book-q8W3WQbNWmkC&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 4.439E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 2.885E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": true    }
+,    "pdf": {
+     "isAvailable": true    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=q8W3WQbNWmkC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "This book focuses on commonly used tools and libraries to give you a comprehensive understanding of Python’s many roles in practical, real-world programming."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "a2Q6U0b36rMC",   "etag": "vK1FXEQBvfM",   "selfLink": "https://www.googleapis.com/books/v1/volumes/a2Q6U0b36rMC",   "volumeInfo": {
+    "title": "Programming Embedded Systems in C and C++",    "authors": [     "Michael Barr"    ],    "publisher": "\"O'Reilly Media, Inc.\"",    "publishedDate": "1999",    "description": "An introduction to embedding systems for C and C++++ programmers encompasses such topics as testing memory devices, writing and erasing Flash memory, verifying nonvolatile memory contents, and much more. Original. (Intermediate).",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "1565923545"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9781565923546"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 174,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.5,    "ratingsCount": 5,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "2.0.0.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=a2Q6U0b36rMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=a2Q6U0b36rMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=a2Q6U0b36rMC&printsec=frontcover&dq=Programming&hl=&cd=25&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=a2Q6U0b36rMC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_Embedded_Systems_in_C_and_C+.html?hl=&id=a2Q6U0b36rMC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=a2Q6U0b36rMC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "An introduction to embedding systems for C and C++++ programmers encompasses such topics as testing memory devices, writing and erasing Flash memory, verifying nonvolatile memory contents, and much more. Original. (Intermediate)."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "UoN_r_NMR_EC",   "etag": "agR9jke+9xg",   "selfLink": "https://www.googleapis.com/books/v1/volumes/UoN_r_NMR_EC",   "volumeInfo": {
+    "title": "Programming in C, 2/e",    "publisher": "Pearson Education India",    "publishedDate": "2011",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8131760316"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788131760314"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 657,    "printType": "BOOK",    "categories": [     "C (Computer program language)"    ],    "averageRating": 4.0,    "ratingsCount": 4,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UoN_r_NMR_EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=UoN_r_NMR_EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=UoN_r_NMR_EC&printsec=frontcover&dq=Programming&hl=&cd=26&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=UoN_r_NMR_EC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_in_C_2_e.html?hl=&id=UoN_r_NMR_EC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=UoN_r_NMR_EC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Combining the features of high level language and functionality assembly language, this book reduces the gap between high level language and low level language, which is why C is known as middle level language."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "pXDzdJ_1E3oC",   "etag": "v/P84tCgOcE",   "selfLink": "https://www.googleapis.com/books/v1/volumes/pXDzdJ_1E3oC",   "volumeInfo": {
+    "title": "Practical C++ Programming",    "authors": [     "Steve Oualline"    ],    "publisher": "\"O'Reilly Media, Inc.\"",    "publishedDate": "2003",    "description": "Teaches the programming language, covering topics including syntax, coding standards, object classes, templates, debugging, and the C++ preprocessor.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0596004192"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780596004194"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 549,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 20,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.2.0.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=pXDzdJ_1E3oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=pXDzdJ_1E3oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=pXDzdJ_1E3oC&printsec=frontcover&dq=Programming&hl=&cd=27&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=pXDzdJ_1E3oC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Practical_C++_Programming.html?hl=&id=pXDzdJ_1E3oC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=pXDzdJ_1E3oC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Teaches the programming language, covering topics including syntax, coding standards, object classes, templates, debugging, and the C++ preprocessor."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "JzUNn6uUxm0C",   "etag": "mQywZrUlvm0",   "selfLink": "https://www.googleapis.com/books/v1/volumes/JzUNn6uUxm0C",   "volumeInfo": {
+    "title": "The Formal Semantics of Programming Languages",    "subtitle": "An Introduction",    "authors": [     "Glynn Winskel"    ],    "publisher": "MIT Press",    "publishedDate": "1993",    "description": "The Formal Semantics of Programming Languages provides the basic mathematical techniques necessary for those who are beginning a study of the semantics and logics of programming languages. These techniques will allow students to invent, formalize, and justify rules with which to reason about a variety of programming languages. Although the treatment is elementary, several of the topics covered are drawn from recent research, including the vital area of concurency. The book contains many exercises ranging from simple to miniprojects.Starting with basic set theory, structural operational semantics is introduced as a way to define the meaning of programming languages along with associated proof techniques. Denotational and axiomatic semantics are illustrated on a simple language of while-programs, and fall proofs are given of the equivalence of the operational and denotational semantics and soundness and relative completeness of the axiomatic semantics. A proof of Godel's incompleteness theorem, which emphasizes the impossibility of achieving a fully complete axiomatic semantics, is included. It is supported by an appendix providing an introduction to the theory of computability based on while-programs.Following a presentation of domain theory, the semantics and methods of proof for several functional languages are treated. The simplest language is that of recursion equations with both call-by-value and call-by-name evaluation. This work is extended to lan guages with higher and recursive types, including a treatment of the eager and lazy lambda-calculi. Throughout, the relationship between denotational and operational semantics is stressed, and the proofs of the correspondence between the operation and denotational semantics are provided. The treatment of recursive types - one of the more advanced parts of the book - relies on the use of information systems to represent domains. The book concludes with a chapter on parallel programming languages, accompanied by a discussion of methods for specifying and verifying nondeterministic and parallel programs.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0262731037"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780262731034"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 361,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 3.0,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=JzUNn6uUxm0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=JzUNn6uUxm0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=JzUNn6uUxm0C&printsec=frontcover&dq=Programming&hl=&cd=28&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=JzUNn6uUxm0C&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/The_Formal_Semantics_of_Programming_Lang.html?hl=&id=JzUNn6uUxm0C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=JzUNn6uUxm0C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "The simplest language is that of recursion equations with both call-by-value and call-by-name evaluation. This work is extended to lan guages with higher and recursive types, including a treatment of the eager and lazy lambda-calculi."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "0qEPhpdiC8MC",   "etag": "5G2VvjhKmwo",   "selfLink": "https://www.googleapis.com/books/v1/volumes/0qEPhpdiC8MC",   "volumeInfo": {
+    "title": "Real Time Programming",    "subtitle": "Languages, Specification and Verification",    "authors": [     "Rudrapatna Shyamasundar"    ],    "publisher": "World Scientific",    "publishedDate": "2010",    "description": "The primary aim of this monograph is to present the current research efforts that have gone into/or going on in the systematic design of real-time programs. Such an effort would help researchers and users in the area to get a clear picture of the issues of specification, verification and design of real-time reactive programs. It will clearly enable us to identify languages that can be used for different kinds of applications. Obviously, in an upcoming area like this, this presentation is far from complete. The quintessence of the monograph can be captured by the following question: . How can we design and develop Robust Reactive (real-time) Programs?. We address this question in this monograph through the various underlying issues listed, such as characteristics of real-time/reactive programs, reactive programming languages, verification and refinements. Sample Chapter(s). Chapter 1: Real Time System Characteristics (78 KB). Contents: Real Time Systems OCo Background; Synchronous Languages; Other Synchronous Languages; Verification of Synchronous Programs; Integration of Synchrony and Asynchrony. Readership: Graduate students and researchers in computer programming.\"",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9789812814029"     }
+,     {
+      "type": "ISBN_10",      "identifier": "9812814027"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 245,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0qEPhpdiC8MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=0qEPhpdiC8MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=0qEPhpdiC8MC&printsec=frontcover&dq=Programming&hl=&cd=29&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=0qEPhpdiC8MC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Real_Time_Programming.html?hl=&id=0qEPhpdiC8MC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Real_Time_Programming-sample-pdf.acsm?id=0qEPhpdiC8MC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=0qEPhpdiC8MC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Pt. I. Real time systems - background. 1."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "4gX0CwAAQBAJ",   "etag": "QntZPuBSEW8",   "selfLink": "https://www.googleapis.com/books/v1/volumes/4gX0CwAAQBAJ",   "volumeInfo": {
+    "title": "Programming Pearls",    "authors": [     "Jon Bentley"    ],    "publisher": "Addison-Wesley Professional",    "publishedDate": "2016-04-21",    "description": "When programmers list their favorite books, Jon Bentley’s collection of programming pearls is commonly included among the classics. Just as natural pearls grow from grains of sand that irritate oysters, programming pearls have grown from real problems that have irritated real programmers. With origins beyond solid engineering, in the realm of insight and creativity, Bentley’s pearls offer unique and clever solutions to those nagging problems. Illustrated by programs designed as much for fun as for instruction, the book is filled with lucid and witty descriptions of practical programming techniques and fundamental design principles. It is not at all surprising that Programming Pearls has been so highly valued by programmers at every level of experience. In this revision, the first in 14 years, Bentley has substantially updated his essays to reflect current programming methods and environments. In addition, there are three new essays on testing, debugging, and timing set representations string problems All the original programs have been rewritten, and an equal amount of new code has been generated. Implementations of all the programs, in C or C++, are now available on the Web. What remains the same in this new edition is Bentley’s focus on the hard core of programming problems and his delivery of workable solutions to those problems. Whether you are new to Bentley’s classic or are revisiting his work for some fresh insight, the book is sure to make your own list of favorites.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780134498034"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0134498038"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 256,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.5,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": true,    "contentVersion": "1.1.1.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=4gX0CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=4gX0CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=4gX0CwAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=30&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=4gX0CwAAQBAJ&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-4gX0CwAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 19.99,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 12.99,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=4gX0CwAAQBAJ&rdid=book-4gX0CwAAQBAJ&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 1.999E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 1.299E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Programming_Pearls-sample-epub.acsm?id=4gX0CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Programming_Pearls-sample-pdf.acsm?id=4gX0CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=4gX0CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "What remains the same in this new edition is Bentley’s focus on the hard core of programming problems and his delivery of workable solutions to those problems."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "G5jGKbsCNYcC",   "etag": "QXwAvQOoTuU",   "selfLink": "https://www.googleapis.com/books/v1/volumes/G5jGKbsCNYcC",   "volumeInfo": {
+    "title": "Programming the PIC Microcontroller with MBASIC",    "authors": [     "Jack R. Smith"    ],    "publisher": "Newnes",    "publishedDate": "2005",    "description": "One of the most thorough introductions available to the world's most popular microcontroller!",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780750679466"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0750679468"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 783,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "1.1.0.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=G5jGKbsCNYcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=G5jGKbsCNYcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=G5jGKbsCNYcC&printsec=frontcover&dq=Programming&hl=&cd=31&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=G5jGKbsCNYcC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_the_PIC_Microcontroller_with.html?hl=&id=G5jGKbsCNYcC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=G5jGKbsCNYcC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "One of the most thorough introductions available to the world&#39;s most popular microcontroller!"   }
+  }
+,  {
+   "kind": "books#volume",   "id": "IKHeZeSFOskC",   "etag": "4dtnQIMHxE0",   "selfLink": "https://www.googleapis.com/books/v1/volumes/IKHeZeSFOskC",   "volumeInfo": {
+    "title": "Engaged Learning for Programming in C++",    "subtitle": "A Laboratory Course",    "authors": [     "Jim Roberge",     "James Robergé",     "Matthew Bauer",     "George K. Smith"    ],    "publisher": "Jones & Bartlett Learning",    "publishedDate": "2001",    "description": "Engaged Learning for Programming in C++: A Laboratory Course takes an interactive, learn-by-doing approach to programming, giving students the ability to discover and learn programming through a no-frills, hands-on learning experience. In each laboratory exercise, students create programs that apply a particular language feature and problem solving technique. As they create these programs, they learn how C++ works and how it can be applied. Object-Oriented Programming (OOP) is addressed within numerous laboratory activities.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0763714232"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780763714239"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 365,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=IKHeZeSFOskC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=IKHeZeSFOskC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=IKHeZeSFOskC&printsec=frontcover&dq=Programming&hl=&cd=32&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=IKHeZeSFOskC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Engaged_Learning_for_Programming_in_C++.html?hl=&id=IKHeZeSFOskC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=IKHeZeSFOskC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Engaged Learning for Programming in C++: A Laboratory Course takes an interactive, learn-by-doing approach to programming, giving students the ability to discover and learn programming through a no-frills, hands-on learning experience."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "LRQhdlrKNE8C",   "etag": "MCCDFBznJh4",   "selfLink": "https://www.googleapis.com/books/v1/volumes/LRQhdlrKNE8C",   "volumeInfo": {
+    "title": "Pair Programming Illuminated",    "authors": [     "Laurie Williams",     "Robert R. Kessler"    ],    "publisher": "Addison-Wesley Professional",    "publishedDate": "2003",    "description": "Written as instruction for pair programming newbies, with practical improvement tips for those experienced with the concept, this guide explores the operational aspects and unique fundamentals of pair programming; information such as furniture set-up, pair rotation, and weeding out bad pairs.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "0201745763"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9780201745764"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 265,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 4.0,    "ratingsCount": 1,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.2.0.preview.3",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=LRQhdlrKNE8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=LRQhdlrKNE8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=LRQhdlrKNE8C&printsec=frontcover&dq=Programming&hl=&cd=33&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=LRQhdlrKNE8C&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Pair_Programming_Illuminated.html?hl=&id=LRQhdlrKNE8C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=LRQhdlrKNE8C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Written as instruction for pair programming newbies, with practical improvement tips for those experienced with the concept, this guide explores the operational aspects and unique fundamentals of pair programming; information such as ..."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "XzlYGLulBdIC",   "etag": "NjZZ/Zn9azI",   "selfLink": "https://www.googleapis.com/books/v1/volumes/XzlYGLulBdIC",   "volumeInfo": {
+    "title": "IEC 61131–3: Programming Industrial Automation Systems",    "subtitle": "Concepts And Programming Languages, Requirements for Programming Systems, AIDS to Decision-making Tools",    "authors": [     "Karl-Heinz John",     "Michael Tiegelkamp"    ],    "publisher": "Springer Science & Business Media",    "publishedDate": "2001",    "description": "IEC 61131-3 gives a comprehensive introduction to the concepts and languages of the new standard used to program industrial control systems. A summary of the special programming requirements and the corresponding features in the IEC 61131-3 standard make it suitable for students as well as PLC experts. The material is presented in an easy-to-understand form using numerous examples, illustrations, and summary tables. There is also a purchaser's guide and a CD-ROM containing two reduced but functional versions of programming systems.",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "3540677526"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9783540677529"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 376,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 5.0,    "ratingsCount": 3,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=XzlYGLulBdIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=XzlYGLulBdIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=XzlYGLulBdIC&printsec=frontcover&dq=Programming&hl=&cd=34&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=XzlYGLulBdIC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/IEC_61131_3_Programming_Industrial_Autom.html?hl=&id=XzlYGLulBdIC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/IEC_61131_3_Programming_Industrial_Autom-sample-pdf.acsm?id=XzlYGLulBdIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=XzlYGLulBdIC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "IEC 61131-3 gives a comprehensive introduction to the concepts and languages of the new standard used to program industrial control systems."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "bIAxhJor1EYC",   "etag": "4/ixhQrrJb4",   "selfLink": "https://www.googleapis.com/books/v1/volumes/bIAxhJor1EYC",   "volumeInfo": {
+    "title": "Coroutines",    "subtitle": "A Programming Methodology, a Language Design and an Implementation",    "authors": [     "C.D. Marlin"    ],    "publisher": "Springer Science & Business Media",    "publishedDate": "1980-10-01",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "3540102566"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9783540102564"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 246,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=bIAxhJor1EYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=bIAxhJor1EYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=bIAxhJor1EYC&printsec=frontcover&dq=Programming&hl=&cd=35&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=bIAxhJor1EYC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Coroutines.html?hl=&id=bIAxhJor1EYC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Coroutines-sample-pdf.acsm?id=bIAxhJor1EYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=bIAxhJor1EYC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+  }
+,  {
+   "kind": "books#volume",   "id": "rC6la__FTU4C",   "etag": "wXQPXv1mP1U",   "selfLink": "https://www.googleapis.com/books/v1/volumes/rC6la__FTU4C",   "volumeInfo": {
+    "title": "Programming In C: A Practical Approach",    "authors": [     "Ajay Mittal"    ],    "publisher": "Pearson Education India",    "publishedDate": "2010-09-01",    "industryIdentifiers": [     {
+      "type": "ISBN_10",      "identifier": "8131729346"     }
+,     {
+      "type": "ISBN_13",      "identifier": "9788131729342"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 764,    "printType": "BOOK",    "categories": [     "C (Computer program language)"    ],    "averageRating": 4.5,    "ratingsCount": 11,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.1.0.preview.1",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=rC6la__FTU4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=rC6la__FTU4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=rC6la__FTU4C&printsec=frontcover&dq=Programming&hl=&cd=36&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=rC6la__FTU4C&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Programming_In_C_A_Practical_Approach.html?hl=&id=rC6la__FTU4C"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=rC6la__FTU4C&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+  }
+,  {
+   "kind": "books#volume",   "id": "IZrICwAAQBAJ",   "etag": "EdilRNRasCo",   "selfLink": "https://www.googleapis.com/books/v1/volumes/IZrICwAAQBAJ",   "volumeInfo": {
+    "title": "Computer Programming",    "subtitle": "Made Simple",    "authors": [     "J. Maynard"    ],    "publisher": "Elsevier",    "publishedDate": "2014-05-12",    "description": "Computer Programming: Made Simple, New Edition focuses on the processes, principles, methodologies, techniques, and approaches involved in computer programming. The publication first takes a look at the introduction to computer structure, backing store, input, and output devices, and logic and flowcharting. Discussions focus on flowcharting, file organization, sequencing, and security, magnetic disc devices, optical character recognition, keyboard, encoders, optical mark reading, input and output unit, and backing store. The manuscript then ponders on operating systems, data and numbers, introduction to COBOL, and word types and constants. The text examines arithmetic statements, MULTIPLY and DIVIDE statements, program control, data classes in COBOL, editing, and data transfer. Topics include READ and WRITE statements, types of editing, PICTURE clause, file labeling, BLOCK CONTAINS clause, PERFORM and STOP statements, and MULTIPLY, DIVIDE, and COMPUTE statements. The book also tackles microprocessors, arrays, and subscripts, loops and subroutines, and program control. The publication is a dependable source of data for computer programmers and researchers interested in computer programming.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9781483183220"     }
+,     {
+      "type": "ISBN_10",      "identifier": "148318322X"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 406,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "preview-1.0.0",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=IZrICwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=IZrICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=IZrICwAAQBAJ&printsec=frontcover&dq=Programming&hl=&cd=37&source=gbs_api",    "infoLink": "https://play.google.com/store/books/details?id=IZrICwAAQBAJ&source=gbs_api",    "canonicalVolumeLink": "https://market.android.com/details?id=book-IZrICwAAQBAJ"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "FOR_SALE",    "isEbook": true,    "listPrice": {
+     "amount": 52.79,     "currencyCode": "GBP"    }
+,    "retailPrice": {
+     "amount": 34.31,     "currencyCode": "GBP"    }
+,    "buyLink": "https://play.google.com/store/books/details?id=IZrICwAAQBAJ&rdid=book-IZrICwAAQBAJ&rdot=1&source=gbs_api",    "offers": [     {
+      "finskyOfferType": 1,      "listPrice": {
+       "amountInMicros": 5.279E7,       "currencyCode": "GBP"      }
+,      "retailPrice": {
+       "amountInMicros": 3.431E7,       "currencyCode": "GBP"      }
+,      "giftable": true     }
+    ]   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Computer_Programming-sample-pdf.acsm?id=IZrICwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=IZrICwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "The book also tackles microprocessors, arrays, and subscripts, loops and subroutines, and program control. The publication is a dependable source of data for computer programmers and researchers interested in computer programming."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "vv5pot-ySsEC",   "etag": "FB85dN11Yqo",   "selfLink": "https://www.googleapis.com/books/v1/volumes/vv5pot-ySsEC",   "volumeInfo": {
+    "title": "The Science of Programming",    "authors": [     "David Gries"    ],    "publisher": "Springer",    "publishedDate": "1989-04-01",    "description": "Describes basic programming principles and their step-by- step applications.Numerous examples are included.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780387964805"     }
+,     {
+      "type": "ISBN_10",      "identifier": "0387964800"     }
+    ],    "readingModes": {
+     "text": false,     "image": false    }
+,    "pageCount": 388,    "printType": "BOOK",    "categories": [     "Computers"    ],    "averageRating": 5.0,    "ratingsCount": 2,    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.1.0.0.preview.0",    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=vv5pot-ySsEC&printsec=frontcover&img=1&zoom=5&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=vv5pot-ySsEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=vv5pot-ySsEC&dq=Programming&hl=&cd=38&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=vv5pot-ySsEC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/The_Science_of_Programming.html?hl=&id=vv5pot-ySsEC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "NO_PAGES",    "embeddable": false,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": true    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=vv5pot-ySsEC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "NONE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Describes basic programming principles and their step-by- step applications.Numerous examples are included."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "wNWHUS69DrcC",   "etag": "C7EmBSJ88/I",   "selfLink": "https://www.googleapis.com/books/v1/volumes/wNWHUS69DrcC",   "volumeInfo": {
+    "title": "An Introduction to Programming with IDL",    "subtitle": "Interactive Data Language",    "authors": [     "Kenneth P. Bowman"    ],    "publisher": "Academic Press",    "publishedDate": "2006",    "description": "Ideal for those with no programming experience.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9780120885596"     }
+,     {
+      "type": "ISBN_10",      "identifier": "012088559X"     }
+    ],    "readingModes": {
+     "text": false,     "image": true    }
+,    "pageCount": 286,    "printType": "BOOK",    "categories": [     "Computers"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "1.1.0.0.preview.1",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=wNWHUS69DrcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=wNWHUS69DrcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=wNWHUS69DrcC&printsec=frontcover&dq=Programming&hl=&cd=39&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=wNWHUS69DrcC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/An_Introduction_to_Programming_with_IDL.html?hl=&id=wNWHUS69DrcC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": false    }
+,    "pdf": {
+     "isAvailable": false    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=wNWHUS69DrcC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Ideal for those with no programming experience."   }
+  }
+,  {
+   "kind": "books#volume",   "id": "y-tww-zTjukC",   "etag": "8IfO85u1AiM",   "selfLink": "https://www.googleapis.com/books/v1/volumes/y-tww-zTjukC",   "volumeInfo": {
+    "title": "Careers in Computer Science and Programming",    "authors": [     "Jeri Freedman"    ],    "publisher": "The Rosen Publishing Group, Inc",    "publishedDate": "2011-01-15",    "description": "Presents the different computer science and programming careers available today. It provides practical advice on obtaining each of these careers, including educational requirements and necessary training.",    "industryIdentifiers": [     {
+      "type": "ISBN_13",      "identifier": "9781448823420"     }
+,     {
+      "type": "ISBN_10",      "identifier": "1448823420"     }
+    ],    "readingModes": {
+     "text": true,     "image": true    }
+,    "pageCount": 80,    "printType": "BOOK",    "categories": [     "Juvenile Nonfiction"    ],    "maturityRating": "NOT_MATURE",    "allowAnonLogging": false,    "contentVersion": "0.0.2.0.preview.3",    "panelizationSummary": {
+     "containsEpubBubbles": false,     "containsImageBubbles": false    }
+,    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=y-tww-zTjukC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",     "thumbnail": "http://books.google.com/books/content?id=y-tww-zTjukC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"    }
+,    "language": "en",    "previewLink": "http://books.google.co.uk/books?id=y-tww-zTjukC&printsec=frontcover&dq=Programming&hl=&cd=40&source=gbs_api",    "infoLink": "http://books.google.co.uk/books?id=y-tww-zTjukC&dq=Programming&hl=&source=gbs_api",    "canonicalVolumeLink": "https://books.google.com/books/about/Careers_in_Computer_Science_and_Programm.html?hl=&id=y-tww-zTjukC"   }
+,   "saleInfo": {
+    "country": "GB",    "saleability": "NOT_FOR_SALE",    "isEbook": false   }
+,   "accessInfo": {
+    "country": "GB",    "viewability": "PARTIAL",    "embeddable": true,    "publicDomain": false,    "textToSpeechPermission": "ALLOWED",    "epub": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Careers_in_Computer_Science_and_Programm-sample-epub.acsm?id=y-tww-zTjukC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "pdf": {
+     "isAvailable": true,     "acsTokenLink": "http://books.google.co.uk/books/download/Careers_in_Computer_Science_and_Programm-sample-pdf.acsm?id=y-tww-zTjukC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"    }
+,    "webReaderLink": "http://play.google.com/books/reader?id=y-tww-zTjukC&hl=&printsec=frontcover&source=gbs_api",    "accessViewStatus": "SAMPLE",    "quoteSharingAllowed": false   }
+,   "searchInfo": {
+    "textSnippet": "Presents the different computer science and programming careers available today. It provides practical advice on obtaining each of these careers, including educational requirements and necessary training."   }
+  }
+ ]}
