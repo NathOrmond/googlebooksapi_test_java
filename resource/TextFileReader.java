@@ -7,27 +7,26 @@ import java.net.URL;
 
 public class TextFileReader {
 
-	private static String FILENAME;
-	private static String rawData;
+	private String  inputFileName;
+	private String rawData;
 	URL url;
 	
 	/**
 	 * adds data in FILENAME line by line into rawData String.
 	 */
-	public static void readText() {
+	public void readText() {
 		BufferedReader br = null;
 		FileReader fr = null;
-		setFILENAME();
 		
 		try {
 			// br = new BufferedReader(new FileReader(FILENAME));
-			fr = new FileReader(FILENAME);
+			fr = new FileReader(getFileName());
 			br = new BufferedReader(fr);
 
 			String sCurrentLine;
-			TextFileReader.rawData = "";
+			this.rawData = "";
 			while ((sCurrentLine = br.readLine()) != null) {
-				TextFileReader.rawData = TextFileReader.rawData + sCurrentLine;
+				this.rawData = this.rawData + sCurrentLine;
 			}
 
 		} catch (IOException e) {
@@ -44,12 +43,17 @@ public class TextFileReader {
 		}
 	}
 	
-	public static String getRawData() {
-		return TextFileReader.rawData;
+	public String getRawData() {
+		readText();
+		return this.rawData;
 	}
 	
-	public static void setFILENAME() {
-		TextFileReader.FILENAME = System.getProperty("user.dir") + "/src/resource/testdata.txt";
+	private String getFileName() { 
+		return System.getProperty("user.dir") + "/src/resource/" + this.inputFileName;
+	}
+	
+	public void setInputFileName(String fileName) {
+		this.inputFileName = fileName;
 	}
 
 }

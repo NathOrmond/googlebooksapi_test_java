@@ -2,12 +2,14 @@ package test.analysis.datatypes;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.Before;
 import org.junit.Test;
 import code.analysis.JSONData;
 import code.analysis.datatypes.DataPrices;
 import resource.TextFileReader;
+import resource.TextFileWriter;
 
 import org.junit.Assert;
 /**
@@ -20,10 +22,12 @@ import org.junit.Assert;
  */
 public class DataPricesTest {
 
-	String expectedData = "[{\"costPerPage\":0.009032258064516128,\"title\":\"COMPUTER PROGRAMMING IN C\"},{\"costPerPage\":0.013807692307692307,\"title\":\"Basic Computer Programming\"},{\"costPerPage\":0.026045487894350697,\"title\":\"The C++ Programming Language\"},{\"costPerPage\":0.02,\"title\":\"COMPUTER PROGRAMMING IN FORTRAN 90 AND 95\"},{\"costPerPage\":0.027199754901960783,\"title\":\"Programming Python\"}]";
+	JSONArray expectedReturnArray;
 	int testNum = 0;
 	static JSONData jsonData;
 	static DataPrices dp;
+	TextFileReader reader;
+	TextFileWriter writer;
 	
 	public DataPricesTest() {
 		//not used
@@ -31,8 +35,16 @@ public class DataPricesTest {
 
 	@Before
 	public void init() throws ParseException {
-		TextFileReader.readText();
-		jsonData = new JSONData(TextFileReader.getRawData());
+		reader = new TextFileReader();
+		writer = new TextFileWriter();
+		
+		reader.setInputFileName("testdata.txt");
+		jsonData = new JSONData(reader.getRawData());
+		
+		JSONParser parser = new JSONParser();
+		reader.setInputFileName("DataPricesTestExpectedOutPut");
+		expectedReturnArray = (JSONArray) parser.parse(reader.getRawData());
+		
 		dp = new DataPrices();
 	}
 
@@ -68,13 +80,15 @@ public class DataPricesTest {
 		String testName = "GET_RANKED_ARRAY_TEST :";
 		System.out.println(consoleOutput("NEW DATA PRICES TEST", testName,0));
 		System.out.println(consoleOutput(testName , "START",4));
-		JSONArray returnedArray = dp.getRankedArray(5);
+		JSONArray returnedArray = dp.getRankedArray(5);	
+		writer.setOutPutFile("DataPricesTestActualOutPut");
+		writer.writeFile(returnedArray.toJSONString());
 		String returnedData = returnedArray.toJSONString();
-		System.out.println(consoleOutput("EXPECTED" , expectedData, 8));
-		System.out.println(consoleOutput("ACTUAL  ",returnedData,8));
-		Assert.assertEquals(expectedData, returnedData);
+		System.out.println(consoleOutput("EXPECTED" , expectedReturnArray.toJSONString(), 8));
+		System.out.println(consoleOutput("ACTUAL  ",returnedArray.toJSONString(),8));	
+		Assert.assertEquals(expectedReturnArray.toJSONString(), returnedData);
 		String status;
-		status = expectedData.equals(returnedData) ? "PASS" : "FAIL";
+		status = expectedReturnArray.toJSONString().equals(returnedData) ? "PASS" : "FAIL";
 		System.out.println(consoleOutput(testName, status,4));
 		System.out.println(consoleOutput("END DATA PRICES TEST", testName,0));
 	}
@@ -84,45 +98,8 @@ public class DataPricesTest {
 		for(int i = 0; i < indentation; i++) { 
 			indnt = indnt + " ";
 		}
-		
 		return "\n" + indnt +"#### " + content + " #### [STATUS: " + suffix + "]";
 	}
 	
-	
-		/** TESTS TO BE IMPLEMENTED **/
-	
-//	@Test
-//	public void testIterationMethod() {
-//		String testName = "ITERATION_METHOD_TEST :";
-//		System.out.println(consoleOutput("NEW DATA PRICES TEST", testName));
-//
-//		System.out.println(consoleOutput(testName, "START"));
-//
-//		//ToDo 
-//		//Contains ListPrice && CostCount (stim data +ve and -ve) 
-//		//JSONArrayLen < ListLen {addNew} else {dontAddNew}
-//		
-//		// Not Yet Implemented
-//		Assert.assertTrue(false);
-//
-//		String status = null;
-////		status = expectedData.equals(someCondition) ? "PASS" : "FAIL";
-//		System.out.println(consoleOutput(testName, status));
-//	}
-//
-//	@Test
-//	public void testEvaluateListForRanking() {
-//		String testName = "EVALUATE_LIST_FOR_RANKING_TEST :";
-//		System.out.println(consoleOutput("NEW DATA PRICES TEST", testName));
-//
-//		System.out.println(consoleOutput(testName, "START"));
-//
-//		// Not Yet Implemented
-//		Assert.assertTrue(false);
-//
-//		String status = null;
-////		status = expectedData.equals(someCondition) ? "PASS" : "FAIL";
-//		System.out.println(consoleOutput(testName, status));
-//	}
 
 }
